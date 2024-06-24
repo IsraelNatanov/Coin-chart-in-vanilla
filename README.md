@@ -14,7 +14,7 @@ This project displays a bar chart of the top 10 cryptocurrencies by market capit
 ## Installation
 
 1. **Clone the repository**:
-    ``bash
+    ```bash
     git clone https://github.com/IsraelNatanov/Coin-chart-in-vanilla.git
     cd Coin-chart-in-vanilla
     ```
