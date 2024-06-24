@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Market Cap Chart</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="error-message"></div>
+        <div id="content" style="display: none;">
+            <div id="chart"></div>
+            <div id="toggle-container"></div>
+            <div>
+                <label for="marketCapRange">Market Cap Filter: </label>
+                <input type="range" id="marketCapRange" min="0" max="1500000000000" step="100000000" value="0">
+                <span id="marketCapValue">1500000000000</span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
